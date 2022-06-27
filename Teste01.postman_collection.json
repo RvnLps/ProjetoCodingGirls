@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "82699449-5739-445b-8ea7-d174125ae3b1",
+		"name": "Teste01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21621625"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7108/api/Turma",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7108/api/Turma",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7108",
+					"path": [
+						"api",
+						"Turma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7108/api/Turma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"nome\": \"C\",\r\n    \"ativo\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7108/api/Turma",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7108",
+					"path": [
+						"api",
+						"Turma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7108/api/Aluno",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7108/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7108",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7108/api/Aluno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"nome\": \"Fernando\",\r\n    \"dataNascimento\": \"2000-06-27T18:48:05.792Z\",\r\n    \"genero\": \"M\",\r\n    \"turmaId\": 1,\r\n    \"totalFaltas\": 10,\r\n    \"ativo\": true,\r\n    \"id_Turma\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7108/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7108",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
