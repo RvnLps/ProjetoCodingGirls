@@ -5,6 +5,6 @@ Aqui temos os seguintes arquivos:
 
 - Na pasta "ProjetoCodingGirls" temos o programa do projeto em desenvolvimento;
 
-- No arquivo em PDF "Projeto Coding Girls" temos uma breve descrição do andamento do perojeto;
+- No arquivo em PDF "Projeto Coding Girls" temos uma breve descriÃ§Ã£o do andamento do projeto;
 
-- O arquivo "Teste01.postman_collection" tem as configurações de teste pelo Postman.
+- O arquivo "Teste01.postman_collection" tem as configuraÃ§Ãµes de teste pelo Postman.
